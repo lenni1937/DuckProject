@@ -16,13 +16,16 @@ namespace DuckProject {
         public Duck(bool fly, bool swim)
         {
         }
-        public void fly()
+        sealed public void fly()
         {
             fly = true;
+            swim = false;
         }
         public void swim()
         {
+            fly = false;
             swim = true;
         }
+        public void 
     }
 }
