@@ -13,8 +13,15 @@ namespace DuckProject {
         fly = false;
         swim = false;
         }
-        public Duck(bool fly, bool swim)
+        public Duck(bool _fly, bool _swim)
         {
+            if (_fly && !_swim || !_fly && swim) {
+                fly = _fly;
+                swim = _swim;
+            }
+            else {
+                Console.WriteLine("Invalid input data");
+            }
         }
         sealed public void fly()
         {
@@ -26,6 +33,5 @@ namespace DuckProject {
             fly = false;
             swim = true;
         }
-        public void 
     }
 }
