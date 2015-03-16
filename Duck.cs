@@ -6,5 +6,8 @@ using System.Threading.Tasks;
 
 namespace DuckProject {
     class Duck {
+        bool fly;
+        bool swim;
+        
     }
 }
