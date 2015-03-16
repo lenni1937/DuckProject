@@ -11,7 +11,7 @@ namespace DuckProject {
         public Duck()
         {
         fly = false;
-        swim = false;
+        swim = true;
         }
         public Duck(bool _fly, bool _swim)
         {
