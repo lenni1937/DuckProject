@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DuckProject {
-    class RubberDuck {
+    class RubberDuck : Duck{
+        
     }
 }
