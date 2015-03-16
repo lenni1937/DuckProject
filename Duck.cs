@@ -15,7 +15,7 @@ namespace DuckProject {
         }
         public Duck(bool _fly, bool _swim)
         {
-            if (_fly && !_swim || !_fly && swim) {
+            if (_fly && !_swim || !_fly && _swim) {
                 fly = _fly;
                 swim = _swim;
             }
