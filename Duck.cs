@@ -33,5 +33,9 @@ namespace DuckProject {
             fly = false;
             swim = true;
         }
+        public void quack()
+        {
+            Console.WriteLine("QUYAAAA!!!");
+        }
     }
 }
